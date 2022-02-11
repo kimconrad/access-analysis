@@ -10,7 +10,7 @@
 
 The following is an ERD mockup of what this would look like after cleaning the data (dropping unnecessary columns and converting columns to appropriate datatypes):
 
-
+![erd](images/erd.PNG)
 
 Tables will then be merged on the unique `id` column.
 
