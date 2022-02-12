@@ -19,19 +19,19 @@ Are there discernable patterns connecting Internet Access, Income, and Populatio
 - Ratio of Income to Poverty Level of Families in the Past 12 Months
 - Total Population
 
-# Technologies Used
-## Data Cleaning and Analysis
+## Technologies Used
+### Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Jupyter Notebook and Python.
 
-## Database Storage
+### Database Storage
 PgAdmin is the database we intend to use, and we will integrate Flask to display the data.
 
-## Machine Learning
+### Machine Learning
 Jupyter Notebook is the ML library we'll be using to create a classifier. Our training and testing setup is to test the correlation between variables. Visulize the difference of Ratio of Income to Poverty Level of Families in the Past 12 Months and Presence of a Computer and Type of Internet Subscription in Household,and the difference of  Total Population of a certain acrea and Presence of a Computer and Type of Internet Subscription in Household. 
 
 Extra ML verbiage here.
 
-## Dashboard
+### Dashboard
 In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on Tableau.
 
 ## Model
