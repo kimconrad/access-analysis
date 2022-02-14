@@ -17,7 +17,7 @@ Are there discernable patterns connecting Internet Access, Income, and Populatio
 ## Data
 - [Presence of a Computer and Type of Internet Subscription in Household](https://data.census.gov/cedsci/table?q=internet%20access&g=0100000US%240500000&y=2018&d=ACS%201-Year%20Estimates%20Detailed%20Tables&tid=ACSDT1Y2018.B28003)
 - [Ratio of Income to Poverty Level of Families in the Past 12 Months](https://data.census.gov/cedsci/table?q=income%20level&g=0100000US%240500000&y=2018&d=ACS%201-Year%20Estimates%20Detailed%20Tables)
-- Total Population - Need to confirm URL used
+- [Total Population](https://data.census.gov/cedsci/table?q=population&g=0100000US%240500000&y=2018&d=ACS%201-Year%20Estimates%20Detailed%20Tables)
 
 ## Technologies Used
 ### Data Cleaning and Analysis
@@ -27,7 +27,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 PgAdmin is the database we intend to use, and we will integrate Flask to display the data.
 
 ### Machine Learning
-Jupyter Notebook is the ML library we'll be using to create a classifier. Our training and testing setup is to test the correlation between variables. Visulize the difference of Ratio of Income to Poverty Level of Families in the Past 12 Months and Presence of a Computer and Type of Internet Subscription in Household,and the difference of  Total Population of a certain acrea and Presence of a Computer and Type of Internet Subscription in Household. 
+Jupyter Notebook is the ML library we'll be using to create a classifier. Our training and testing setup is to test the correlation between variables. Visulize the difference of Ratio of Income to Poverty Level of Families in the Past 12 Months and Presence of a Computer and Type of Internet Subscription in Household,and the difference of  Total Population of a certain acrea and Presence of a Computer and Type of Internet Subscription in Household.
 
 Extra ML verbiage here.
 
