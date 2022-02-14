@@ -15,9 +15,9 @@ Are there discernable patterns connecting Internet Access, Income, and Populatio
   - Collected from American Community Survey
 
 ## Data
-- Presence of a Computer and Type of Internet Subscription in Household
-- Ratio of Income to Poverty Level of Families in the Past 12 Months
-- Total Population
+- [Presence of a Computer and Type of Internet Subscription in Household](https://data.census.gov/cedsci/table?q=internet%20access&g=0100000US%240500000&y=2018&d=ACS%201-Year%20Estimates%20Detailed%20Tables&tid=ACSDT1Y2018.B28003)
+- [Ratio of Income to Poverty Level of Families in the Past 12 Months](https://data.census.gov/cedsci/table?q=income%20level&g=0100000US%240500000&y=2018&d=ACS%201-Year%20Estimates%20Detailed%20Tables)
+- Total Population - Need to confirm URL used
 
 ## Technologies Used
 ### Data Cleaning and Analysis
