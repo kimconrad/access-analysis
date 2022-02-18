@@ -34,3 +34,21 @@ INTO cleaner_income
 FROM income;
 
 SELECT * FROM cleaner_income;
+
+-- Internet vs. No Internet
+SELECT id, dialup, broadband, no_internet
+INTO internet_status
+FROM cleaner_int_access;
+
+ALTER TABLE internet_status
+ADD COLUMN has_internet FLOAT;
+
+UPDATE internet_status SET has_internet = broadband + dialup;
+
+ALTER TABLE internet_status
+DROP COLUMN dialup;
+
+ALTER TABLE internet_status
+DROP COLUMN broadband;
+
+SELECT * FROM internet_status;
