@@ -21,7 +21,7 @@ Are there discernable patterns connecting Internet Access, Income, and Populatio
 
 ## Technologies Used
 ### Data Cleaning and Analysis
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Jupyter Notebook and Python.
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Jupyter Notebook, python and Rstudio.
 
 ### Database Storage
 Heroku is the database we intend to use, and we will integrate Flask to display the data.
