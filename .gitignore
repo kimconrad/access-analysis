@@ -5,6 +5,7 @@ __pycache__/
 
 # Ignore the config.py file
 tester_config.py
+config.py
 
 
 # C extensions
