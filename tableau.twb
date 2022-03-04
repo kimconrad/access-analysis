@@ -1,0 +1,2120 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelRelationshipPerfOptions.true...ObjectModelRelationshipPerfOptions />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='comp_types (d2hgqg2homreih)' inline='true' name='federated.1kb159p1o040p516fx23k1ukm793' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ec2-3-211-240-42.compute-1.amazonaws.com' name='postgres.1bs5xdw0t222kr1bbzdj102obfim'>
+            <connection authentication='username-password' class='postgres' dbname='d2hgqg2homreih' one-time-sql='' port='5432' server='ec2-3-211-240-42.compute-1.amazonaws.com' username='yhcaekagzcfjez' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='comp_types' table='[public].[comp_types]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='county_state' table='[public].[county_state]' type='table' />
+          <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='comp_types' table='[public].[comp_types]' type='table' />
+          <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='inc_int_comp' table='[public].[inc_int_comp]' type='table' />
+          <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='inc_int_no_int' table='[public].[inc_int_no_int]' type='table' />
+          <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='income_internet' table='[public].[income_internet]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[_10000_19900_broadband (income_internet)]' value='[income_internet].[_10000_19900_broadband]' />
+          <map key='[_10000_19900_broadband]' value='[inc_int_comp].[_10000_19900_broadband]' />
+          <map key='[_10000_19900_dialup (income_internet)]' value='[income_internet].[_10000_19900_dialup]' />
+          <map key='[_10000_19900_dialup]' value='[inc_int_comp].[_10000_19900_dialup]' />
+          <map key='[_10000_19900_internet]' value='[inc_int_no_int].[_10000_19900_internet]' />
+          <map key='[_10000_19900_none (inc_int_no_int)]' value='[inc_int_no_int].[_10000_19900_none]' />
+          <map key='[_10000_19900_none (income_internet)]' value='[income_internet].[_10000_19900_none]' />
+          <map key='[_10000_19900_none]' value='[inc_int_comp].[_10000_19900_none]' />
+          <map key='[_10000_19900_total (inc_int_no_int)]' value='[inc_int_no_int].[_10000_19900_total]' />
+          <map key='[_10000_19900_total (income_internet)]' value='[income_internet].[_10000_19900_total]' />
+          <map key='[_10000_19900_total]' value='[inc_int_comp].[_10000_19900_total]' />
+          <map key='[_20000_34999_broadband (income_internet)]' value='[income_internet].[_20000_34999_broadband]' />
+          <map key='[_20000_34999_broadband]' value='[inc_int_comp].[_20000_34999_broadband]' />
+          <map key='[_20000_34999_dialup (income_internet)]' value='[income_internet].[_20000_34999_dialup]' />
+          <map key='[_20000_34999_dialup]' value='[inc_int_comp].[_20000_34999_dialup]' />
+          <map key='[_20000_34999_internet]' value='[inc_int_no_int].[_20000_34999_internet]' />
+          <map key='[_20000_34999_none (inc_int_no_int)]' value='[inc_int_no_int].[_20000_34999_none]' />
+          <map key='[_20000_34999_none (income_internet)]' value='[income_internet].[_20000_34999_none]' />
+          <map key='[_20000_34999_none]' value='[inc_int_comp].[_20000_34999_none]' />
+          <map key='[_20000_34999_total (inc_int_no_int)]' value='[inc_int_no_int].[_20000_34999_total]' />
+          <map key='[_20000_34999_total (income_internet)]' value='[income_internet].[_20000_34999_total]' />
+          <map key='[_20000_34999_total]' value='[inc_int_comp].[_20000_34999_total]' />
+          <map key='[_35000_49999_broadband (income_internet)]' value='[income_internet].[_35000_49999_broadband]' />
+          <map key='[_35000_49999_broadband]' value='[inc_int_comp].[_35000_49999_broadband]' />
+          <map key='[_35000_49999_dialup (income_internet)]' value='[income_internet].[_35000_49999_dialup]' />
+          <map key='[_35000_49999_dialup]' value='[inc_int_comp].[_35000_49999_dialup]' />
+          <map key='[_35000_49999_internet]' value='[inc_int_no_int].[_35000_49999_internet]' />
+          <map key='[_35000_49999_none (inc_int_no_int)]' value='[inc_int_no_int].[_35000_49999_none]' />
+          <map key='[_35000_49999_none (income_internet)]' value='[income_internet].[_35000_49999_none]' />
+          <map key='[_35000_49999_none]' value='[inc_int_comp].[_35000_49999_none]' />
+          <map key='[_35000_49999_total (inc_int_no_int)]' value='[inc_int_no_int].[_35000_49999_total]' />
+          <map key='[_35000_49999_total (income_internet)]' value='[income_internet].[_35000_49999_total]' />
+          <map key='[_35000_49999_total]' value='[inc_int_comp].[_35000_49999_total]' />
+          <map key='[_50000_74900_broadband (income_internet)]' value='[income_internet].[_50000_74900_broadband]' />
+          <map key='[_50000_74900_broadband]' value='[inc_int_comp].[_50000_74900_broadband]' />
+          <map key='[_50000_74900_dialup (income_internet)]' value='[income_internet].[_50000_74900_dialup]' />
+          <map key='[_50000_74900_dialup]' value='[inc_int_comp].[_50000_74900_dialup]' />
+          <map key='[_50000_74900_internet]' value='[inc_int_no_int].[_50000_74900_internet]' />
+          <map key='[_50000_74900_none (inc_int_no_int)]' value='[inc_int_no_int].[_50000_74900_none]' />
+          <map key='[_50000_74900_none (income_internet)]' value='[income_internet].[_50000_74900_none]' />
+          <map key='[_50000_74900_none]' value='[inc_int_comp].[_50000_74900_none]' />
+          <map key='[_50000_74900_total (inc_int_no_int)]' value='[inc_int_no_int].[_50000_74900_total]' />
+          <map key='[_50000_74900_total (income_internet)]' value='[income_internet].[_50000_74900_total]' />
+          <map key='[_50000_74900_total]' value='[inc_int_comp].[_50000_74900_total]' />
+          <map key='[county]' value='[county_state].[county]' />
+          <map key='[desktop_laptop (inc_int_comp)]' value='[inc_int_comp].[desktop_laptop]' />
+          <map key='[desktop_laptop]' value='[comp_types].[desktop_laptop]' />
+          <map key='[geographic_area_name (inc_int_comp)]' value='[inc_int_comp].[geographic_area_name]' />
+          <map key='[geographic_area_name (inc_int_no_int)]' value='[inc_int_no_int].[geographic_area_name]' />
+          <map key='[geographic_area_name (income_internet)]' value='[income_internet].[geographic_area_name]' />
+          <map key='[geographic_area_name]' value='[comp_types].[geographic_area_name]' />
+          <map key='[greater_75000_broadband (income_internet)]' value='[income_internet].[greater_75000_broadband]' />
+          <map key='[greater_75000_broadband]' value='[inc_int_comp].[greater_75000_broadband]' />
+          <map key='[greater_75000_dialup (income_internet)]' value='[income_internet].[greater_75000_dialup]' />
+          <map key='[greater_75000_dialup]' value='[inc_int_comp].[greater_75000_dialup]' />
+          <map key='[greater_75000_internet]' value='[inc_int_no_int].[greater_75000_internet]' />
+          <map key='[greater_75000_none (inc_int_no_int)]' value='[inc_int_no_int].[greater_75000_none]' />
+          <map key='[greater_75000_none (income_internet)]' value='[income_internet].[greater_75000_none]' />
+          <map key='[greater_75000_none]' value='[inc_int_comp].[greater_75000_none]' />
+          <map key='[greater_75000_total (inc_int_no_int)]' value='[inc_int_no_int].[greater_75000_total]' />
+          <map key='[greater_75000_total (income_internet)]' value='[income_internet].[greater_75000_total]' />
+          <map key='[greater_75000_total]' value='[inc_int_comp].[greater_75000_total]' />
+          <map key='[id (comp_types)]' value='[comp_types].[id]' />
+          <map key='[id (inc_int_comp)]' value='[inc_int_comp].[id]' />
+          <map key='[id (inc_int_no_int)]' value='[inc_int_no_int].[id]' />
+          <map key='[id (income_internet)]' value='[income_internet].[id]' />
+          <map key='[id]' value='[county_state].[id]' />
+          <map key='[less_10000_broadband (income_internet)]' value='[income_internet].[less_10000_broadband]' />
+          <map key='[less_10000_broadband]' value='[inc_int_comp].[less_10000_broadband]' />
+          <map key='[less_10000_dialup (income_internet)]' value='[income_internet].[less_10000_dialup]' />
+          <map key='[less_10000_dialup]' value='[inc_int_comp].[less_10000_dialup]' />
+          <map key='[less_10000_internet]' value='[inc_int_no_int].[less_10000_internet]' />
+          <map key='[less_10000_none (inc_int_no_int)]' value='[inc_int_no_int].[less_10000_none]' />
+          <map key='[less_10000_none (income_internet)]' value='[income_internet].[less_10000_none]' />
+          <map key='[less_10000_none]' value='[inc_int_comp].[less_10000_none]' />
+          <map key='[less_10000_total (inc_int_no_int)]' value='[inc_int_no_int].[less_10000_total]' />
+          <map key='[less_10000_total (income_internet)]' value='[income_internet].[less_10000_total]' />
+          <map key='[less_10000_total]' value='[inc_int_comp].[less_10000_total]' />
+          <map key='[no_computer (inc_int_comp)]' value='[inc_int_comp].[no_computer]' />
+          <map key='[no_computer]' value='[comp_types].[no_computer]' />
+          <map key='[one_or_more (inc_int_comp)]' value='[inc_int_comp].[one_or_more]' />
+          <map key='[one_or_more]' value='[comp_types].[one_or_more]' />
+          <map key='[only_desktop_laptop (inc_int_comp)]' value='[inc_int_comp].[only_desktop_laptop]' />
+          <map key='[only_desktop_laptop]' value='[comp_types].[only_desktop_laptop]' />
+          <map key='[only_other (inc_int_comp)]' value='[inc_int_comp].[only_other]' />
+          <map key='[only_other]' value='[comp_types].[only_other]' />
+          <map key='[only_smartphone (inc_int_comp)]' value='[inc_int_comp].[only_smartphone]' />
+          <map key='[only_smartphone]' value='[comp_types].[only_smartphone]' />
+          <map key='[only_tablet_portable (inc_int_comp)]' value='[inc_int_comp].[only_tablet_portable]' />
+          <map key='[only_tablet_portable]' value='[comp_types].[only_tablet_portable]' />
+          <map key='[other (inc_int_comp)]' value='[inc_int_comp].[other]' />
+          <map key='[other]' value='[comp_types].[other]' />
+          <map key='[smartphone (inc_int_comp)]' value='[inc_int_comp].[smartphone]' />
+          <map key='[smartphone]' value='[comp_types].[smartphone]' />
+          <map key='[state]' value='[county_state].[state]' />
+          <map key='[tablet_portable (inc_int_comp)]' value='[inc_int_comp].[tablet_portable]' />
+          <map key='[tablet_portable]' value='[comp_types].[tablet_portable]' />
+          <map key='[total (inc_int_comp)]' value='[inc_int_comp].[total]' />
+          <map key='[total (inc_int_no_int)]' value='[inc_int_no_int].[total]' />
+          <map key='[total (income_internet)]' value='[income_internet].[total]' />
+          <map key='[total]' value='[comp_types].[total]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[county_state]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[county_state_99BCBE7942E04D97A7147D94AACE536E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[county]</local-name>
+            <parent-name>[county_state]</parent-name>
+            <remote-alias>county</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[county_state_99BCBE7942E04D97A7147D94AACE536E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[county_state]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[county_state_99BCBE7942E04D97A7147D94AACE536E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>one_or_more</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[one_or_more]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>one_or_more</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>desktop_laptop</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[desktop_laptop]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>desktop_laptop</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_desktop_laptop</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_desktop_laptop]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>only_desktop_laptop</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smartphone</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[smartphone]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>smartphone</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_smartphone</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_smartphone]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>only_smartphone</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tablet_portable</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[tablet_portable]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>tablet_portable</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_tablet_portable</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_tablet_portable]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>only_tablet_portable</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[other]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>other</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_other</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_other]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>only_other</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>no_computer</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[no_computer]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>no_computer</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (comp_types)]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geographic_area_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geographic_area_name]</local-name>
+            <parent-name>[comp_types]</parent-name>
+            <remote-alias>geographic_area_name</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[comp_types_F29571E809AF45DDA21F07B712BCCA99]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>one_or_more</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[one_or_more (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>one_or_more</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>desktop_laptop</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[desktop_laptop (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>desktop_laptop</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_desktop_laptop</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_desktop_laptop (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>only_desktop_laptop</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smartphone</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[smartphone (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>smartphone</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_smartphone</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_smartphone (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>only_smartphone</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tablet_portable</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[tablet_portable (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>tablet_portable</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_tablet_portable</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_tablet_portable (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>only_tablet_portable</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[other (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>other</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>only_other</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[only_other (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>only_other</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>no_computer</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[no_computer (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>no_computer</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_total]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>less_10000_total</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_dialup]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>less_10000_dialup</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_broadband]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>less_10000_broadband</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_none]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>less_10000_none</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_total]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_10000_19900_total</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_dialup]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_10000_19900_dialup</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_broadband]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_10000_19900_broadband</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_none]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_10000_19900_none</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_total]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_20000_34999_total</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_dialup]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_20000_34999_dialup</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_broadband]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_20000_34999_broadband</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_none]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_20000_34999_none</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_total]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_35000_49999_total</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_dialup]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_35000_49999_dialup</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_broadband]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_35000_49999_broadband</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_none]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_35000_49999_none</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_total]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_50000_74900_total</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_dialup]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_50000_74900_dialup</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_broadband]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_50000_74900_broadband</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_none]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>_50000_74900_none</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_total]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>greater_75000_total</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_dialup]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>greater_75000_dialup</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_broadband]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>greater_75000_broadband</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_none]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>greater_75000_none</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geographic_area_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geographic_area_name (inc_int_comp)]</local-name>
+            <parent-name>[inc_int_comp]</parent-name>
+            <remote-alias>geographic_area_name</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>less_10000_total</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_internet</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_internet]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>less_10000_internet</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_none (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>less_10000_none</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_10000_19900_total</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_internet</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_internet]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_10000_19900_internet</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_none (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_10000_19900_none</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_20000_34999_total</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_internet</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_internet]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_20000_34999_internet</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_none (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_20000_34999_none</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_35000_49999_total</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_internet</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_internet]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_35000_49999_internet</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_none (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_35000_49999_none</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_50000_74900_total</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_internet</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_internet]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_50000_74900_internet</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_none (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>_50000_74900_none</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_total (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>greater_75000_total</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_internet</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_internet]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>greater_75000_internet</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_none (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>greater_75000_none</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geographic_area_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geographic_area_name (inc_int_no_int)]</local-name>
+            <parent-name>[inc_int_no_int]</parent-name>
+            <remote-alias>geographic_area_name</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>less_10000_total</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_dialup (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>less_10000_dialup</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_broadband (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>less_10000_broadband</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>less_10000_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[less_10000_none (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>less_10000_none</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_10000_19900_total</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_dialup (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_10000_19900_dialup</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_broadband (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_10000_19900_broadband</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_10000_19900_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_10000_19900_none (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_10000_19900_none</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_20000_34999_total</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_dialup (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_20000_34999_dialup</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_broadband (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_20000_34999_broadband</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_20000_34999_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_20000_34999_none (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_20000_34999_none</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_35000_49999_total</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_dialup (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_35000_49999_dialup</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_broadband (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_35000_49999_broadband</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_35000_49999_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_35000_49999_none (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_35000_49999_none</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_50000_74900_total</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_dialup (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_50000_74900_dialup</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_broadband (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_50000_74900_broadband</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_50000_74900_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[_50000_74900_none (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>_50000_74900_none</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_total</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_total (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>greater_75000_total</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_dialup</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_dialup (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>greater_75000_dialup</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_broadband</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_broadband (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>greater_75000_broadband</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>greater_75000_none</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[greater_75000_none (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>greater_75000_none</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geographic_area_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geographic_area_name (income_internet)]</local-name>
+            <parent-name>[income_internet]</parent-name>
+            <remote-alias>geographic_area_name</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[income_internet_291F9143590B48F7ABDDE87A22C0198E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='_10000 19900 Broadband (Income Internet)' datatype='integer' name='[_10000_19900_broadband (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Broadband' datatype='integer' name='[_10000_19900_broadband]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Dialup (Income Internet)' datatype='integer' name='[_10000_19900_dialup (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Dialup' datatype='integer' name='[_10000_19900_dialup]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Internet' datatype='integer' name='[_10000_19900_internet]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 None (Inc Int No Int)' datatype='integer' name='[_10000_19900_none (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 None (Income Internet)' datatype='integer' name='[_10000_19900_none (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 None' datatype='integer' name='[_10000_19900_none]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Total (Inc Int No Int)' datatype='integer' name='[_10000_19900_total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Total (Income Internet)' datatype='integer' name='[_10000_19900_total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_10000 19900 Total' datatype='integer' name='[_10000_19900_total]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Broadband (Income Internet)' datatype='integer' name='[_20000_34999_broadband (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Broadband' datatype='integer' name='[_20000_34999_broadband]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Dialup (Income Internet)' datatype='integer' name='[_20000_34999_dialup (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Dialup' datatype='integer' name='[_20000_34999_dialup]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Internet' datatype='integer' name='[_20000_34999_internet]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 None (Inc Int No Int)' datatype='integer' name='[_20000_34999_none (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 None (Income Internet)' datatype='integer' name='[_20000_34999_none (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 None' datatype='integer' name='[_20000_34999_none]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Total (Inc Int No Int)' datatype='integer' name='[_20000_34999_total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Total (Income Internet)' datatype='integer' name='[_20000_34999_total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_20000 34999 Total' datatype='integer' name='[_20000_34999_total]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Broadband (Income Internet)' datatype='integer' name='[_35000_49999_broadband (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Broadband' datatype='integer' name='[_35000_49999_broadband]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Dialup (Income Internet)' datatype='integer' name='[_35000_49999_dialup (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Dialup' datatype='integer' name='[_35000_49999_dialup]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Internet' datatype='integer' name='[_35000_49999_internet]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 None (Inc Int No Int)' datatype='integer' name='[_35000_49999_none (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 None (Income Internet)' datatype='integer' name='[_35000_49999_none (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 None' datatype='integer' name='[_35000_49999_none]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Total (Inc Int No Int)' datatype='integer' name='[_35000_49999_total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Total (Income Internet)' datatype='integer' name='[_35000_49999_total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_35000 49999 Total' datatype='integer' name='[_35000_49999_total]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Broadband (Income Internet)' datatype='integer' name='[_50000_74900_broadband (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Broadband' datatype='integer' name='[_50000_74900_broadband]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Dialup (Income Internet)' datatype='integer' name='[_50000_74900_dialup (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Dialup' datatype='integer' name='[_50000_74900_dialup]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Internet' datatype='integer' name='[_50000_74900_internet]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 None (Inc Int No Int)' datatype='integer' name='[_50000_74900_none (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 None (Income Internet)' datatype='integer' name='[_50000_74900_none (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 None' datatype='integer' name='[_50000_74900_none]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Total (Inc Int No Int)' datatype='integer' name='[_50000_74900_total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Total (Income Internet)' datatype='integer' name='[_50000_74900_total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='_50000 74900 Total' datatype='integer' name='[_50000_74900_total]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='comp_types' datatype='table' name='[__tableau_internal_object_id__].[comp_types_F29571E809AF45DDA21F07B712BCCA99]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='county_state' datatype='table' name='[__tableau_internal_object_id__].[county_state_99BCBE7942E04D97A7147D94AACE536E]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='inc_int_comp' datatype='table' name='[__tableau_internal_object_id__].[inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='inc_int_no_int' datatype='table' name='[__tableau_internal_object_id__].[inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='income_internet' datatype='table' name='[__tableau_internal_object_id__].[income_internet_291F9143590B48F7ABDDE87A22C0198E]' role='measure' type='quantitative' />
+      <column caption='County' datatype='string' name='[county]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Desktop Laptop (Inc Int Comp)' datatype='integer' name='[desktop_laptop (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Desktop Laptop' datatype='integer' name='[desktop_laptop]' role='measure' type='quantitative' />
+      <column caption='Geographic Area Name (Inc Int Comp)' datatype='string' name='[geographic_area_name (inc_int_comp)]' role='dimension' type='nominal' />
+      <column caption='Geographic Area Name (Inc Int No Int)' datatype='string' name='[geographic_area_name (inc_int_no_int)]' role='dimension' type='nominal' />
+      <column caption='Geographic Area Name (Income Internet)' datatype='string' name='[geographic_area_name (income_internet)]' role='dimension' type='nominal' />
+      <column caption='Geographic Area Name' datatype='string' name='[geographic_area_name]' role='dimension' type='nominal' />
+      <column caption='Greater 75000 Broadband (Income Internet)' datatype='integer' name='[greater_75000_broadband (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Broadband' datatype='integer' name='[greater_75000_broadband]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Dialup (Income Internet)' datatype='integer' name='[greater_75000_dialup (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Dialup' datatype='integer' name='[greater_75000_dialup]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Internet' datatype='integer' name='[greater_75000_internet]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 None (Inc Int No Int)' datatype='integer' name='[greater_75000_none (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 None (Income Internet)' datatype='integer' name='[greater_75000_none (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 None' datatype='integer' name='[greater_75000_none]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Total (Inc Int No Int)' datatype='integer' name='[greater_75000_total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Total (Income Internet)' datatype='integer' name='[greater_75000_total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Greater 75000 Total' datatype='integer' name='[greater_75000_total]' role='measure' type='quantitative' />
+      <column caption='Id (Comp Types)' datatype='integer' name='[id (comp_types)]' role='dimension' type='ordinal' />
+      <column caption='Id (Inc Int Comp)' datatype='integer' name='[id (inc_int_comp)]' role='dimension' type='ordinal' />
+      <column caption='Id (Inc Int No Int)' datatype='integer' name='[id (inc_int_no_int)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Id (Income Internet)' datatype='integer' name='[id (income_internet)]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Less 10000 Broadband (Income Internet)' datatype='integer' name='[less_10000_broadband (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Broadband' datatype='integer' name='[less_10000_broadband]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Dialup (Income Internet)' datatype='integer' name='[less_10000_dialup (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Dialup' datatype='integer' name='[less_10000_dialup]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Internet' datatype='integer' name='[less_10000_internet]' role='measure' type='quantitative' />
+      <column caption='Less 10000 None (Inc Int No Int)' datatype='integer' name='[less_10000_none (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='Less 10000 None (Income Internet)' datatype='integer' name='[less_10000_none (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Less 10000 None' datatype='integer' name='[less_10000_none]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Total (Inc Int No Int)' datatype='integer' name='[less_10000_total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Total (Income Internet)' datatype='integer' name='[less_10000_total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Less 10000 Total' datatype='integer' name='[less_10000_total]' role='measure' type='quantitative' />
+      <column caption='No Computer (Inc Int Comp)' datatype='integer' name='[no_computer (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='No Computer' datatype='integer' name='[no_computer]' role='measure' type='quantitative' />
+      <column caption='One Or More (Inc Int Comp)' datatype='integer' name='[one_or_more (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='One Or More' datatype='integer' name='[one_or_more]' role='measure' type='quantitative' />
+      <column caption='Only Desktop Laptop (Inc Int Comp)' datatype='integer' name='[only_desktop_laptop (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Only Desktop Laptop' datatype='integer' name='[only_desktop_laptop]' role='measure' type='quantitative' />
+      <column caption='Only Other (Inc Int Comp)' datatype='integer' name='[only_other (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Only Other' datatype='integer' name='[only_other]' role='measure' type='quantitative' />
+      <column caption='Only Smartphone (Inc Int Comp)' datatype='integer' name='[only_smartphone (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Only Smartphone' datatype='integer' name='[only_smartphone]' role='measure' type='quantitative' />
+      <column caption='Only Tablet Portable (Inc Int Comp)' datatype='integer' name='[only_tablet_portable (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Only Tablet Portable' datatype='integer' name='[only_tablet_portable]' role='measure' type='quantitative' />
+      <column caption='Other (Inc Int Comp)' datatype='integer' name='[other (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Other' datatype='integer' name='[other]' role='measure' type='quantitative' />
+      <column caption='Smartphone (Inc Int Comp)' datatype='integer' name='[smartphone (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Smartphone' datatype='integer' name='[smartphone]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Tablet Portable (Inc Int Comp)' datatype='integer' name='[tablet_portable (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Tablet Portable' datatype='integer' name='[tablet_portable]' role='measure' type='quantitative' />
+      <column caption='Total (Inc Int Comp)' datatype='integer' name='[total (inc_int_comp)]' role='measure' type='quantitative' />
+      <column caption='Total (Inc Int No Int)' datatype='integer' name='[total (inc_int_no_int)]' role='measure' type='quantitative' />
+      <column caption='Total (Income Internet)' datatype='integer' name='[total (income_internet)]' role='measure' type='quantitative' />
+      <column caption='Total' datatype='integer' name='[total]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='state, county'>
+          <field>[state]</field>
+          <field>[county]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='comp_types' id='comp_types_F29571E809AF45DDA21F07B712BCCA99'>
+            <properties context=''>
+              <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='comp_types' table='[public].[comp_types]' type='table' />
+            </properties>
+          </object>
+          <object caption='county_state' id='county_state_99BCBE7942E04D97A7147D94AACE536E'>
+            <properties context=''>
+              <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='county_state' table='[public].[county_state]' type='table' />
+            </properties>
+          </object>
+          <object caption='inc_int_comp' id='inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44'>
+            <properties context=''>
+              <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='inc_int_comp' table='[public].[inc_int_comp]' type='table' />
+            </properties>
+          </object>
+          <object caption='inc_int_no_int' id='inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF'>
+            <properties context=''>
+              <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='inc_int_no_int' table='[public].[inc_int_no_int]' type='table' />
+            </properties>
+          </object>
+          <object caption='income_internet' id='income_internet_291F9143590B48F7ABDDE87A22C0198E'>
+            <properties context=''>
+              <relation connection='postgres.1bs5xdw0t222kr1bbzdj102obfim' name='income_internet' table='[public].[income_internet]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[id]' />
+              <expression op='[id (comp_types)]' />
+            </expression>
+            <first-end-point object-id='county_state_99BCBE7942E04D97A7147D94AACE536E' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='comp_types_F29571E809AF45DDA21F07B712BCCA99' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[id]' />
+              <expression op='[id (inc_int_comp)]' />
+            </expression>
+            <first-end-point object-id='county_state_99BCBE7942E04D97A7147D94AACE536E' />
+            <second-end-point object-id='inc_int_comp_6BC9D67ED7B04A97B409F001D5DA1C44' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[id]' />
+              <expression op='[id (inc_int_no_int)]' />
+            </expression>
+            <first-end-point object-id='county_state_99BCBE7942E04D97A7147D94AACE536E' />
+            <second-end-point object-id='inc_int_no_int_1AC91DAEEFE443929A5D5E603FBBA6DF' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[id]' />
+              <expression op='[id (income_internet)]' />
+            </expression>
+            <first-end-point object-id='county_state_99BCBE7942E04D97A7147D94AACE536E' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='income_internet_291F9143590B48F7ABDDE87A22C0198E' unique-key='true' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='comp_types (d2hgqg2homreih)' name='federated.1kb159p1o040p516fx23k1ukm793' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1kb159p1o040p516fx23k1ukm793'>
+            <column caption='County' datatype='string' name='[county]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kb159p1o040p516fx23k1ukm793].[Longitude (generated)]' field-type='quantitative' max='-4850135.6992265321' min='-16267497.877681719' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1kb159p1o040p516fx23k1ukm793].[Latitude (generated)]' field-type='quantitative' max='7135186.2301210882' min='1295486.5229412019' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.1kb159p1o040p516fx23k1ukm793].[none:state:nk]' />
+              <lod column='[federated.1kb159p1o040p516fx23k1ukm793].[none:county:nk]' />
+              <geometry column='[federated.1kb159p1o040p516fx23k1ukm793].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1kb159p1o040p516fx23k1ukm793].[Latitude (generated)]</rows>
+        <cols>[federated.1kb159p1o040p516fx23k1ukm793].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{849C6BB1-B591-42BB-8C5D-927AF02A1303}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kb159p1o040p516fx23k1ukm793].[none:geographic_area_name:nk]</field>
+            <field>[federated.1kb159p1o040p516fx23k1ukm793].[none:id:ok]</field>
+            <field>[federated.1kb159p1o040p516fx23k1ukm793].[none:state:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{38FD6A4B-E385-43D7-95BF-1D4EB2FD6E92}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      8wcI4wD2paue9AAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
