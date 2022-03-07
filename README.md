@@ -26,10 +26,10 @@ Are there discernable patterns connecting Internet Access, Income, and Populatio
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Jupyter Notebook, python and Rstudio.
 
 ### Database Storage
-Heroku is the database we intend to use, and we will integrate Flask to display the data.
+Heroku is the database we intend to use, and we use Tableau to visualize our datasets.
 
 ### Machine Learning
-= Jupyter Notebook is the ML library we'll be using to create a classifier. Our modeling setup is to viualize the correlation between variables. Differences between various incomes (under 10K to over 75k) using presence of a Computing device (desktop/laptop/smartphone/tablet/other) and internet supscription or no internet subsciption.
+- Jupyter Notebook is the ML library we'll be using to create a classifier. Our modeling setup is to viualize the correlation between variables. Differences between various incomes (under 10K to over 75k) using presence of a Computing device (desktop/laptop/smartphone/tablet/other) and internet supscription or no internet subsciption.
 - Data preprocessing was done with cleaning the csv files downloaded from the Census buereau website. I used both Pandas and eyes-on scrolling in Excel to clean the data.  There were a few rows with null/other values creating float and object variables that were easier to just eliminate (two in total). This brought my data to fully Integer.  Also, the model did not care for 0 values, it popped an error with less than 2, so there were two values, that were zero that I changed to 2.
 - Feature selection was based on the data that we have. I have spent a good bit of time learning that there is no way to correlated data with an unequal amount of variables, so that was somewhat limiting in feature selection I will discuss this further later on.
 - The data was split into training and testing sets and errored out.  For logistic regression, the outcome seems to be binary, when I attempted to use ".(income)without internet access" as my y, it threw a value error and said "ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2." The lowest value was 18.
