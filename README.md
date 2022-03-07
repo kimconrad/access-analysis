@@ -36,8 +36,7 @@ Heroku is the database we intend to use, and we use Tableau to visualize our dat
 - I ended up using unsupervised learning, which was quite happy with the data and performed as expected. However, this data does not seem to allow confusion matrix and accuracy analysis like LR.  Therefore I will use PCA and covariance.
 
 ### Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on Tableau.
-
+We create Dashboard Layouts for internet access in different counties on Tableau
 ## Model
 - Unsupervised Learning- with K means - scatter and 3D plot analysis
 
