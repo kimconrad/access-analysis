@@ -1,6 +1,6 @@
 # access-analysis
 
-## Question
+## 
 
 Are there discernable patterns connecting Internet Access, Income, and Population Density?
 - Selected Topic
